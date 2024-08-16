@@ -1,0 +1,36 @@
+/*form*/
+
+.rate-circles-box{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+
+.rate-circle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    background-color: $light-dark-blue;
+    color: $light-grey;
+    border-radius: 50%;
+}
+
+.rate-circle-input{
+    display: none;
+}
+
+.rate-circle-input:checked + label{
+    background-color: aliceblue;
+}
+
+.rate-button{
+    background-color: hsl(25, 97%, 53%);
+    border-radius: 40px;
+    padding: 15px;
+    width: 100%;
+}
+
+/*---------------*/

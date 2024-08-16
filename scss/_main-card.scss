@@ -1,0 +1,37 @@
+/*main card*/
+
+.main-card{
+
+    background-color: $dark-blue;
+    width: 100%;
+    max-width: 400px;
+    border-radius: 30px;
+    padding: 30px;
+}
+
+.main-card__main-content-wrapper *:not(:last-child){
+    margin-bottom: 16px;
+}
+
+.main-card__icon-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: $light-dark-blue;
+    margin-bottom: 16px;
+}
+
+.main-card__tittle{
+    color: $white;
+    font-size: 1.5rem;
+    font-family: Overpass-Bold;
+}
+
+.main-card__subtittle{
+    font-size: 0.9375rem;
+    color: $light-grey;
+}
+
